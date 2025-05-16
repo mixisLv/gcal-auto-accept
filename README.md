@@ -11,7 +11,7 @@ A simple script to automatically accept all pending Google Calendar event invita
 ## How to Use This Script
 
     Open Google Apps Script:
-        Go to your (Google Apps Script)[https://script.google.com].
+        Go to your [Google Apps Script](https://script.google.com).
         Click on "New Project" button.
 
     Copy and Paste:
