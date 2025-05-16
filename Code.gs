@@ -24,7 +24,7 @@ function autoAcceptEvents() {
 
     Logger.log('Event: ' + event.getTitle() + ' (' + event.getStartTime() + ') My Status: ' + event.getMyStatus());
     // Set *your* response status to "yes" (accepted).
-      //event.setMyStatus(CalendarApp.GuestStatus.YES);
+      event.setMyStatus(CalendarApp.GuestStatus.YES);
       Logger.log('Accepted event: ' + event.getTitle() + ' (' + event.getStartTime() + ')');
   }
 
