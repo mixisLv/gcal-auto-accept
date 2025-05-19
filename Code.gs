@@ -9,7 +9,7 @@ function autoAcceptEvents() {
   var startTime = new Date();
       startTime.setHours(0,0,0,0);
 
-  var endTime = new Date(startTime.getTime() + 48 * 60 * 60 * 1000);
+  var endTime = new Date(startTime.getTime() + 48 * 60 * 60 * 1000-1);
   
   Logger.log('startTime: ' + startTime + ', endTime: ' + endTime);
 
